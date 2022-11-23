@@ -1,0 +1,42 @@
+$background-color: #202d57;
+$hover-color: #2145a9;
+$color-white: white;
+body {
+  background-color: $background-color;
+  .container {
+    width: 100%;
+    // margin: 0% 10%;
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .services {
+      width: 100%;
+      .services-top {
+        margin: 50px;
+      }
+      .services-bottom {
+        display: flex;
+        justify-content: center;
+        .bottom-foot-box {
+          margin: 0% 1%;
+          padding: 30px;
+          width: 13%;
+          //   border: 1px solid black;
+          background-color: transparent;
+          &:hover {
+            background-color: $hover-color;
+          }
+          i {
+            border: 1px solid $color-white;
+            border-radius: 50%;
+            font-size: xx-large;
+            padding: 20px;
+          }
+          button {
+          }
+        }
+      }
+    }
+  }
+}

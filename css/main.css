@@ -1,0 +1,35 @@
+body {
+  background-color: #202d57;
+}
+body .container {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+body .container .services {
+  width: 100%;
+}
+body .container .services .services-top {
+  margin: 50px;
+}
+body .container .services .services-bottom {
+  display: flex;
+  justify-content: center;
+}
+body .container .services .services-bottom .bottom-foot-box {
+  margin: 0% 1%;
+  padding: 30px;
+  width: 13%;
+  background-color: transparent;
+}
+body .container .services .services-bottom .bottom-foot-box:hover {
+  background-color: #2145a9;
+}
+body .container .services .services-bottom .bottom-foot-box i {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: xx-large;
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
